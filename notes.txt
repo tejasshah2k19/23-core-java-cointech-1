@@ -1,0 +1,297 @@
+java -> programming lang. 
+
+
+program -> system 
+
+English 
+
+
+instructions -> 
+		read two numbers
+		add two numbers into ans 
+		print ans 
+
+system -> execute -> output 
+
+
+
+user --> english { HL } 
+system -> binary { LL } 
+
+transaltor -> 
+		1)	compiler
+		2)	interpreter 
+
+
+HL -> transaltor -> LL 
+
+1
+2
+3
+*4
+5
+6
+*7
+
+
+2 errors 
+c -> whole at once 
+i -> line by line 
+
+speed -> c 
+eff -> i 
+
+--> compiler , interpreter 
+
+lang -> C : compiler
+	C++ : compiler 
+	java : compiler + interpreter  
+--------------------------------------------------------------------------------
+								java 
+
+	JDK												JRE 
+	java development kit							java runtime enviornment 
+
+	JDK : JRE 								JRE
+										JVM,JIT,lib,classloader
+	javac : java compiler 
+	java  : execute java file 
+	appletviewer : 
+	javadoc : 
+
+ 
+	
+	tools ?
+	text editor -> save -> run 
+	
+	ide : eclipse , ij , jb 
+ 
+-------------------------------------------------------------------------------------
+
+java --> oop 
+        open source , HL , compiled - interpreterted , OOP lang. 
+
+.java  
+
+type-> OOP -> object oriented programming lang { real world }
+            class, object , inheritance , encapsulation ,abstraction 
+
+       POP -> procedure 
+
+venue , food , cake , decoration 
+
+
+-------------------------------------------------------------------------------------
+class -> general , logical , group -> 
+
+object -> physical , member , specialized { real word entity }
+
+
+function -> method -> 
+   
+   add(){ 
+    read two numbers   
+    add two number 
+    print ans
+   }
+
+
+Iphone - c 
+Laptop - c 
+iphone14plus256gbblack - o 
+Person  -  c c 
+Mr X -  o o 
+Water - c c 
+Keyboard - c c 
+Bank - c c 
+Amazon - c c
+Car - c c   
+Ferrari - c c 
+
+
+Bank -> customer -> wid , dep , chkbal 
+
+
+Car -> class 
+Iphone -> class 
+Iphone 14 Pro -> class 
+My Iphone 14 pro -> object 
+Human -> C 
+Anuhya -> Object 
+Laptop -> class
+Bank -> class 
+
+Mouse -> class 
+Girl -> class 
+Computer -> class 
+Lemon -> class 
+
+Door -> class 
+Glass -> class 
+Projector -> 
+
+
+Dog -> class
+Cat -> class 
+Ipad -> class 
+HeadPhone -> class 
+Gandhiji -> object 
+
+
+class-> {variable , method }
+
+
+
+Bank -> customer -> wid , dep , chkbal 
+
+Bank -> class 
+                accountNo
+                firstName
+                balance
+
+                dep()
+                wid()
+                chkBal() 
+
+-------------------------------------------------------------------------------------------------
+HL 
+LL
+
+type : OOP POP 
+
+transaltor -> compiler , interpreter 
+
+java -> c + i 
+java -> HL
+java -> oop 
+
+Mr Bean  -> object 
+Water -> class 
+Bridge -> class 
+TajMahal -> object 
+
+-------------------------------------------------------------------------------------------------
+
+
+class -> logic -> 1) method()
+				  2) variable  { data name - store value }
+
+object -> access - use - property 
+
+if you want to access any property of the class 
+you need to create object of a class 
+
+Dog - leg hand tail -  walk() - run() - bite()
+
+
+Men - leg hand beard -  walk() jump() run() clap() 
+
+
+Mr x : Men  ->
+object : class 
+-------------------------------------------------------------------------------------------
+
+once you compile your java file you will get class file 
+
+do we have more than one class in one java file ? yes 
+we can have n numbers of class in one java file 
+
+
+javac First.java =>  .class  { First.class Second.class Third.class }
+
+do we have multiple main method in multiple class? Yes 
+
+-------------------------------------------------------------------------------------------
+class - first letter should be capital 
+		two words -> first letter of second word also be capital 
+
+		Dog 
+		Employee 
+		TempEmployee 
+
+data type -> type of data -> 
+	1) primitive:8  
+
+		byte	1byte  8   2^8 -> 256 -> -128 0 127 
+		short 	2byte  16
+		char    2byte       it can store single character in single quote  'p'  invalid->'px'  
+		int 	4byte  32	whole numbers 1,23, 45  -> non fraction digit -> integer 
+		long    8    		same as int but double in the size 
+		float 	4 			real number fraction digit 2.5 6.33 65.25 3.0   
+		double 	8 			same as float double in the size 
+		boolean 1bit  		true false 
+		
+	2) non-primitive ->
+		class , enum , array .... 
+		 First.class  
+
+
+variable -> mention data type ->  memory allocation 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
