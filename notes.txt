@@ -229,6 +229,81 @@ data type -> type of data ->
 variable -> mention data type ->  memory allocation 
 
 
+---------------------------------
+
+1. For Vada(20)
+2. For Dosa(50)
+3. For Panipuri(40) 
+
+Enter choice
+3 
+
+How many ? 
+2
+
+bill = 80 RS 
+----------------------------
+loops -> iterative | 
+for 
+while 
+do..while 
+
+while(condition){
+
+    //body 
+}
+
+int i=1;//start 
+
+while(i<=10){ //condition
+    S.o.p(i);
+    i++;//increment 
+}
+------------------------------------------------------------------
+local : method 
+instance : object , YOU CAN ACCESS VIA INSTANCE 
+static   : class , you can access via className or instance/object   
+                    {we have access static variable using class name }
+								
+	s1	name	ram					
+		age	12				bankCode	5001
+								
+	s2	name	null				s1.bankCode	4001
+		age	0				s1.bankCode = 5001	
+							s2.bankCode	5001
+
+
+Bill 
+Amount : 1000 
+GST    : 180 
+Total  : 1180 
+
+-------------------------------------------------------------------
+Bank app 
+    customer -> name , balance{50000} 
+
+    1. Wid 
+    2. Dep 
+    3. CheckBalance
+    4. Exit 
+
+    1.wid 
+    amt: 5000 
+
+    2.dep 
+    amt : 50000
+
+    3.CheckBalance
+    balance : 95000
+
+    4. exit 
+--------------------------------------------------------------    
+
+
+
+
+
+
 
 
 
