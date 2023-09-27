@@ -298,6 +298,63 @@ Bank app
 
     4. exit 
 --------------------------------------------------------------    
+minimum bal : 5000 
+max wid and dep : wid:50000 , dep 1,00,000
+--------------------------------------------------------------    
+
+
+casting -> implicit , explicit 
+
+int a = 5;
+int b = 2;
+float c = a/b;// c int/int => int => 2  {implicit casting } 
+
+
+
+
+int a = 5;
+int b = 2;
+float c = ((float)a)/b;// c float/int => float => 2.5  {explicit casting } 
+--------------------------------------------------------------
+
+// 1 java source file can have n number of class
+// but we must have 1 public class
+// core java -> main method that is the entry point-->execution start
+// when we compile java file it will generate class file
+// we will n number of class file from 1 java file [ n is the count of the class
+// in java file]
+// we can run those class file using java command
+// java Employee -> main
+// java PartTimeEmployee
+
+
+Name   BasicSalary   HRA    PF    Salary  Tax 
+x		10000		 1000   1200  9800     0
+y        XXX 
+z        XXX
+
+----------------------------------------------------------------------
+identifiers:- 
+Keywords :- 
+
+java code conventions:- 
+-----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
