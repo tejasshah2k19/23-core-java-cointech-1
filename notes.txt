@@ -334,10 +334,71 @@ y        XXX
 z        XXX
 
 ----------------------------------------------------------------------
-identifiers:- 
-Keywords :- 
+identifiers:-  what data name , name 
+				name , email,password , Salary , pf , hra
+
+Keywords :-  reserve words - buitin - specific meaning 
+			int float class break continue ..... 
+			float int; 
+			float x; 
+			int x; 
+			int break; 
 
 java code conventions:- 
+		class  ->  Bank , PartEmp ,  Employee ,  FullTimeEmployee  
+
+		variable -> salary , totalSalary, max , min , minBal  
+		constant variable -> ROI , MAX_SALARY , BILL 
+
+		methods  ->  add(),  addEmp();   
+
+Rules for identifiers :- 
+		1) we can use only , a-z A-Z 0-9 _ $ 
+		2) first character must not be a digit 
+				max9->correct  9max->incorrect 
+		3) we can not use space , or any special symbols , [ _ $ ]	
+		4) we can not take Keywords 
+		5) upper case and lower case are different - case sensitive
+--------------------------------------------------------------------------------------
+constructor 
+			-> constructor is a special method which has a same name as a class name and			
+				it must not have any return type 
+
+			-> is used to initialize instance variable  
+			1) implicit 
+			2) explicit 
+
+			we have two types of constructor	
+				1) default constructor / no argument 
+				2) argument / parameterized constructor
+--------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 -----------------------------------------------------------------
 
 
