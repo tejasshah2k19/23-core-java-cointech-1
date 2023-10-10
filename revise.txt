@@ -1,0 +1,268 @@
+program - programming language 
+
+java -> p.l 
+instructions => 
+
+user : developer -> english -->          HL 
+computer ? read english ? --> binary --> LL 0101
+
+
+XYZ ->| translate |  computer -> 
+
+HL -----> LL 
+
+Lang. 
+
+1) HL : user : english 
+2) LL : system : binary 00100110011
+3) ML : HL + LL : en + bin 
+
+
+JAVA HL 
+
+HL --> transaltor ---> LL 
+
+1) compiler  : whole at once  -- speed 
+2) interpreter : line by line  -- effie. 
+
+
+1
+2
+3
+*4
+5
+6
+7
+*8
+9
+10 
+
+2 errors : 
+
+error on line 4 XXX 
+error on line 8 XXX 
+
+
+java programming language 
+     HL 
+     compiled and interpreted 
+     OOP object oriented programming {class object inheritance polymorphism }     
+
+procedure oriented programming language {procedure}
+
+----------------------------------------------------------------------------------------------
+
+tools ? 
+
+1) code -> text editor -> sublime ,vscode , notepad 
+                  ide  -> eclipse , intelliJ, netbeans 
+
+2)                          JAVA 
+
+    JDK                                         JRE 
+    java development kit                        java runtime enviornment 
+    javac - java compile                        lib 
+    java  - execute java                        class loader , 
+                                                jvm : java virtual machine  
+    appletviewer - gui:applet                   jit : just in time 
+    jdb   - java debugger -  
+    javadoc - java document 
+    javah - header 
+    50+ tools 
+ 
+
+JDK -> JRE 
+OS -> java -> JRE 
+
+how to check ? 
+cmd / terminal 
+    java -version 
+    javac -version
+---------------------------------------------------------------------------
+install java ? 
+
+set path -> 
+---------------------------------------------------------------------------
+
+java PL : OOP : compile interpreted 
+
+javac -> compile 
+java  -> execute 
+---------------------------------------------------------
+java oop -> 
+
+class -> 
+object -> 
+
+Amazon 
+    Customer mrX  
+    Product  mouse 
+    Category 
+    SubCategory 
+    Order 
+    Cart 
+    Wishlist 
+
+
+XYZ -> class? 
+-------------------------------------------------------------
+
+
+A department employs many employees but each employee is employed
+by one department. A division operates many department but each
+Department is operated by one division. An employee may be assigned
+many projects and one project may have many employees assigned to it.
+One of the employees. One of the employees runs each division and each
+division is run by only one employee.
+
+class -> 
+    Department 
+    Division
+    Employee 
+    Project 
+
+-------------------------------------------------------------
+
+A customer requests an item from a salesperson. The salesperson looks
+up the inventory to see if the item is available. The salesperson replies to
+the customer. The customer places an order with the salesperson. The
+salesperson forwards the order to the inventory. The inventory places the
+item on hold and informs the salesperson. The salesperson sends an
+invoice to the customer. When payment on the invoice is received, the
+salesperson requests inventory to make delivery. Inventory sends a
+delivery note to customer.
+
+
+Customer
+Item 
+SalesPerson 
+Inventory 
+Order 
+Invoice 
+Payment 
+Delivery 
+--------------------------------------------------------------------------
+
+class Customer -> 
+                variable + method 
+                customerName 
+                customerId
+                email 
+                password
+                contactNum 
+
+                addAddress()
+                changePassword()
+                updateProfile() 
+
+
+class Calculator 
+        add()
+        sub()
+        mul()
+        div() 
+        no1 no2 ans 
+ ------------------------------
+ java api ->  
+ read data => Scanner  { nextInt() nextFloat() nextDouble() }            
+
+
+how we can import a class from java api - lib ?
+
+import Keyword is used to import class 
+
+
+import java.util.Scanner; 
+
+
+folder -> package 
+java ->  
+    security
+    lang
+    util
+    applet
+    io 
+    net 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

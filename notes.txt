@@ -373,6 +373,216 @@ constructor
 				2) argument / parameterized constructor
 --------------------------------------------------------------------------------------
 
+create a class call Marker , 
+having three methods 
+1) max 
+2) oddeven 
+3) redyellow 
+
+max method takes two argument and return max of two 
+oddeven method take 1 argument and return true if argument is odd 
+								  return false if argument is even 
+redyellow method take 1 argument 
+			it print red if argument is true 
+			it print yellow if argument is false 
+
+
+in main method 
+	obj.redyellow(obj.oddeven(obj.max(11,23))); 
+	
+-----------------------------------------------------------------
+class -> 
+variable ->
+method ->  
+object -> 
+object -> call methods -> access methods 
+
+
+
+
+create a class Employee 
+				name : String 
+				salary : int 
+
+				1) getData()  -> read data 
+				2) printData() -> print data 
+-------------------------------------------------------------------
+we have to create car rental app ,that calculates 
+total car rent based on user's input 
+
+app will store user's email and password when user signup 
+after signup user can select car type , app will charge based on car type 
+
+app provide 3 variant 
+1) SUV  - 25RS Per KM 
+2) SEDAN - 15RS Per KM 
+3) CompactSEDAN - 10RS per KM 
+
+after signup app provide three option for car variant 
+user need to select any 1 and then app will ask for kilometers 
+based on kilometers and car variant we need to generate bill amount. 
+also if bill is more than 5000 than we need to add 10% service charge. 
+bill : 5000 
+serviceCharge : 500 
+
+
+bill : 19000
+serviceCharge : 1900 
+
+
+Email  Password  CarVariant kilometers Bill serviceCharge TotlaBill 
+
+{class object method instance variable localvariable Scanner}
+------------------------------------------------------------------------
+
+what is constructor ? 
+	constructor is a special method ,which has same name as a class name and 
+	it must not have any return type 
+
+
+constructor -> is used to initialize instance variable 
+
+
+how to create ? 
+just create a method without return type and give name same as class name 
+
+do we need to invoke? call?
+no -
+it will call automatically when we create instance/object 
+
+1) implicit constructor -- java 
+2) explicit constructor -- user / developer / we 
+
+
+explicit constructor -> 
+		1)   ( )  -> default constructor / no argument constructor
+		2)   (int) -> argument / parameterized constructor 
+
+------------------------------------------------
+loop -> repeat 
+
+	1) for 
+	2) while 
+
+	for(start;condition;inc/dec ){
+		//logic 
+	}
+
+	start; 
+	while(condition){
+
+		//inc dec 
+	}
+-------------------------------------------------------------------------
+expense manager app -> 
+
+we want to track our total expense in 3 category for a month 
+1) grocery  {7000}
+2) transport {0}
+3) entertainment {16000} 
+
+
+start 
+
+1 time we ask user , 
+			firstName 
+			mobile
+
+WELCOME TO EXPENSE MANAGER 
+
+1) add new expense 
+2) view all expenses 
+3) Exit 
+Enter your choice 
+1 
+Press 1 for grocery 
+Press 2 for transport
+Press 3 for  entertainment 
+1
+How much ? 
+2000 
+
+
+WELCOME TO EXPENSE MANAGER 
+
+1) add new expense 
+2) view all expenses 
+3) Exit 
+Enter your choice
+1
+Press 1 for grocery 
+Press 2 for transport
+Press 3 for  entertainment 
+1
+How much?
+5000
+
+
+WELCOME TO EXPENSE MANAGER 
+
+1) add new expense 
+2) view all expenses 
+3) Exit 
+Enter your choice
+1
+Press 1 for grocery 
+Press 2 for transport
+Press 3 for  entertainment 
+3
+How much?
+16000
+
+
+
+WELCOME TO EXPENSE MANAGER 
+
+1) add new expense 
+2) view all expenses 
+3) Exit 
+Enter your choice
+2
+
+grocery : 7000
+transport : 0 
+entertainment : 16000
+
+
+
+WELCOME TO EXPENSE MANAGER 
+
+1) add new expense 
+2) view all expenses 
+3) Exit 
+Enter your choice
+3
+
+Thank You! 
+Bye 
+
+-------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
