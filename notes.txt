@@ -562,6 +562,101 @@ Bye
 {class,object,instance variable,constructor,if..,menu,loop,methods,Scanner}
 -------------------------------------------------------------------------
 
+array :- 
+
+addition of 10 numbers 
+
+	int a,b,c,d,e,f,.....; 
+
+addition of 50 numbers 
+
+
+
+array -> collection of data 
+		 collection of same type of data 
+		 under the single name we can store n numbers of data 
+		 int -> all data of int type 
+		 [ ] -> array 
+
+		 int a; // single value 
+		 a = 10; 
+		 System.out.println(a); // print 10 
+		 a = 100; 
+		 System.out.println(a); // print 100 
+
+
+		 int a[] ; // blank array no size 
+		 int a[] = new int[5]; // a -> can store 5 value 
+
+		you will get 5 copy of a , 
+		a[0]  a[1]  a[2]  a[3] a[4]
+
+		we can access array data using index , 
+		which starts from 0 
+		which ends at size-1 
+
+		int a[][] = new int[3][3]; // 
+
+
+		int a[] => 1 dimensional array 
+		int a[][] => 2 dimensional array 
+		int a[][][] => multi dimensional array 
+
+
+2d 
+
+		a[0]	a[3]				
+							
+	index	0	1	2	3	4	5
+		10	20	30	40	50	60
+							
+							
+		size = 6					
+							
+							
+			matrix	3*4	3 row 	4 columns	
+		0	1	2	3		
+	0	10	20	30	40		
+	1	50	60	70	80		
+	2	90	100	110	120		
+							
+							
+	two dimension array		matrix 			a[0][1]	
+						a[2][2]	
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
