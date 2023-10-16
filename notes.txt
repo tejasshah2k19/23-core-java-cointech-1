@@ -625,8 +625,79 @@ array -> collection of data
 						a[2][2]	
 
 
+	for(int i=0;i<3;i++){
+		for(int j=0;j<4;j++){
+			a[i][j] = scr.nextInt(); 
+		}
+	}
+
+	
+	for(int i=0;i<3;i++){
+		for(int j=0;j<4;j++){
+			System.out.print(a[i][j]+" "); 
+		}
+		System.out.println("");
+	}
+
+// find sum of numbers of 2d
+// find max
+// search a number in 2d
+// take row number from user and print sum of that row only
+
+---------------------------------------------------
+
+java api -> import 
+
+import java.package.className; 
+import java.package.subPackage.className ; 
+
+import java.util.Scanner; 
+import java.util.regex.Pattern;
+
+-----------------------------------------
+
+amazon -> 
+			Customer.java 
+				Customer 
+				Order 
+				Cart 
+				Address 
+			Product.java 
+				Product 
+				Category
+				SubCategory 
+				Brand 
+			Payment.java 
+				Payment 
+				Card 
+				UPI
+				COD 
+
+create more than 1 class in 1 java file 
+create more than 1 java file for 1 application 
 
 
+Ecom -> 
+products 
+customer 
+order 
+
+
+coupling -> loose  -> A{access add} -> B{add()} { A is tightly coupled with B }
+cohesion -> high  -> class => logic => it self -> 
+			Accountant 
+				collectFees()
+				refund()
+				paySalary()
+			HR
+				decideSalary()
+			 
+			Student 
+				payFees()
+
+
+
+---------------------------------------------------------
 
 		
 

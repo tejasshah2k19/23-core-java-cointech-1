@@ -38,6 +38,8 @@ public class TwoDArray {
             System.out.println("");
 
         }
+
+        //
     }
 }
 // find sum of numbers of 2d
