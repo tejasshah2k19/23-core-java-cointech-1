@@ -698,18 +698,112 @@ cohesion -> high  -> class => logic => it self ->
 
 
 ---------------------------------------------------------
-
-		
-
-
-
+access modifier -     public protected private default  
+non access modifier - static final abstract synchronized 
+					  transient volatile native strictfp 
 
 
 
 
+static -> keyword 
+1) where we can use? 
+		class? No
+		method? Yes 
+		variable? Yes 
+
+static method vs non static method 
+1) non static method must be access via object 
+	static method can access via class or object 
+
+2) non static method can access any variable 
+	static method can access only static variable 
+
+
+why ? 
+	static -> static variable ? 
+				static variable -> one and only one copy in memory 
+				static variable creates single copy in a memory for entire life of a program 
+				non static variable create individual copy when we create object 
 
 
 
+----------------------------------------------
+
+create a class Book with 
+	4 fields 
+		name 
+		price 
+		author
+		publication 
+	create 1 method that scan all data from user 
+	create 1 static method that print welcome to user before scanning data from user 
+
+
+
+Welcome , {static }
+enter name  {non static }
+enter price 
+enter author 
+enter publication 
+
+------------------------------------------
+JAVA -> OOP -> class , object , inheritance , abstraction 
+polymorphism 
+
+inheritance -> object of one class can access property of another class 
+				-> reuse 
+
+using extends we can achieve inheritance 
+
+
+class -> gives -> Parent - Super - Base   
+class -> takes -> Child  - Sub   - Derived 
+
+Parent -> BasicCalc {add mul to SciCalc}
+Child  -> SciCalc 
+
+
+1) Single(level) inheritance 
+2) Multilevel inheritance 
+3) Mulitple - [interface]
+4) hirerchical - tree  
+5) hybrid - { combine any of 2 - minimum 2}
+
+-----------------------------------------------------
+Multilevel => 
+
+	class Santa 
+	class Banta -> Santa  
+	Class SantaBanta -> Banta 
+
+	SantaBanta can access property of Santa indirectly 
+	SantaBanta can access property of Banta Directly 
+	Banta can access property of Santa Directly 
+
+------------------------------------------------------
+we can ask parent's property via super keyword 
+
+
+method overriding -> Parent , Child 
+					if child will create method that is already created by parent 
+					everything must be same in method 
+					Parent-> void add (int a,int b)
+					Child -> void add (int x,int y)
+
+why ? 
+			security 
+			memory 
+			optimization 
+
+method overloading -> Single class 
+				more than 1 form 
+				1 method can be created n times 
+				method having same name with different argument 
+
+
+polymorphism -> compile time and run time 
+
+------------------------------------------------------------------
 
 
 
