@@ -805,6 +805,38 @@ polymorphism -> compile time and run time
 
 ------------------------------------------------------------------
 
+class Cop 
+class Police 
+
+Police is child of Cop 
+
+Cop having 2 property , rank and salary 
+Police having 2 property , rank and payScale 
+
+all properties are integer values. 
+
+create 1 method in Cop class that scan rank and salary 
+creat 1 method in police class that scan rank and payScale 
+
+now create 1 printData method in police which print all 4 variables 
+
+------------------------------------------------------------------------
+final keyword 
+
+where? 
+class ? yes  -> no inheritance -> can not create inheritance - can not have child 
+variable ? yes -> constant variable - we can't change value 
+method ? yes   -> final method can not override by child - it disbale overriding  
+
+
+int a=10; 
+final int a = 10; 
+
+------------------------------------------------------------------------
+
+String class -> 
+
+
 
 
 
