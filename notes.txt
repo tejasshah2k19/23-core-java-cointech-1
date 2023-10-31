@@ -834,7 +834,59 @@ final int a = 10;
 
 ------------------------------------------------------------------------
 
-String class -> 
+String class ->
+
+	length()
+	equals()
+	equalsIgnoreCase()
+	toUpperCase()
+	toLowerCase() 
+
+	1) take email and password from user and print valid 
+	if email is admin@amazon.in and password is amazon2023 
+	else print invalid 
+
+	2) take name from the user and validate 
+		if total character in name is less than 3 print invalid name 
+		if name is valid then convert it into upper case and print name 
+
+-----------------------------------------------------------------------
+
+	charAt 
+	indexOf
+	lastIndexOf 
+	contains 
+	substring 
+	startsWith 
+	endsWith 
+	split 
+
+	1) take string from the user and count how many vowels present in a string. 
+	2) take email address from user and check entire email format is correct or not.
+		valid -> om@gmail.com , shah@gmail.com 
+		invalid -> o@gmail.com , shah@yopmail.com 
+		{it must contains @gmail.com at end and before it we must have atleast two characters }	
+
+	3) take string from user and find out how many times jony present in a string 
+		input = "jony jony yes papa" 
+		ans = jony founds 2 time 
+
+	4) take string from user , now extract 10 different substring from it 
+			with random size 
+
+		input = "java is an object oriented programming language" ;
+		java is 
+		an object 
+		ect oriented
+		guage 
+		java i 
+		ject ori 
+		progra
+		programing lang 
+		XXX 
+		XX 
+					 
+
 
 
 
