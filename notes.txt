@@ -919,6 +919,21 @@ String class ->
 	sbi.com , atm -> wid => x's wife 
 	50000 {-40000 -40000} {-30000}
 
+StringBuffer/Builder  String 
+
+1) Take string from user and check its palindrome or not ! 
+   palindrome strings are pronounce same from left to right and right to left 
+	original and reverse of string are same 
+	e.g => MADAM => MADAM => palindrome 
+	e.g => sir => ris => Not palindrome 
+	
+2) take string from user and remove  all vowels from it . 
+	input => jony jony yes papa 
+	output => jny jny ys pp 
+
+3) take password from user and make it encrypted so end user can not read it.
+	input=> this is my password 
+	output => txhkiasd iksl moyl pzakskskwlorrzdz 
 
 
 
