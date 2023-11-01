@@ -837,8 +837,10 @@ final int a = 10;
 String class ->
 
 	length()
-	equals()
+	equals() : boolean 
 	equalsIgnoreCase()
+	compareTo(): integer 
+	compareToIgnoreCase() 
 	toUpperCase()
 	toLowerCase() 
 
@@ -870,6 +872,7 @@ String class ->
 	3) take string from user and find out how many times jony present in a string 
 		input = "jony jony yes papa" 
 		ans = jony founds 2 time 
+		split, array 
 
 	4) take string from user , now extract 10 different substring from it 
 			with random size 
@@ -886,16 +889,40 @@ String class ->
 		XXX 
 		XX 
 					 
+-------------------------------------------------------------------------
+	String class -> java api -> 
+
+	String -> immutable ->
+
+	String x = "india"; 
+	x.toUpperCase(); // INDIA  
+	System.out.println(x); // india 
+	String y = x.toLowerCase(); // india 
+
+	gc -> garbage collector 
+
+	System.gc();// request gc  
+
+	
+	StringBuffer 			StringBuilder => mutable  
+
+	reverse()
+
+	all the methods of StringBuffer class are synchronized {1 execution at a time }
+	all the methods of StringBuilder class  are non synchronized {parellal execution allowed }
+
+	synchronized -> A B C D -> turn by turn A => B => C => D => 
+	non synchronized -> A B C D -> run all at same time | parellal execution 
+
+	facebook.com -> login -> non synchronized 
+	sbi.com -> transfer => x -> y -> synchronized 
+	sbi.com , atm -> wid => x's wife 
+	50000 {-40000 -40000} {-30000}
 
 
 
 
-
-
-
-
-
-
+-----------------------------------------------------------
 
 
 
