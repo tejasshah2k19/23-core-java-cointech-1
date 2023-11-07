@@ -939,6 +939,240 @@ StringBuffer/Builder  String
 
 -----------------------------------------------------------
 
+private 
+default 
+protected 
+public 
+
+java variable / method 
+class 
+
+class A{
+	private void add(){
+
+	}
+	//default -- we can not write default 
+	//if we dont mention it will take default specifier 
+	void sub(){
+
+	}
+	protected void mul(){
+
+	}
+	public void div(){
+
+	}
+}
+
+movie ->  hollywood{hindi,eng} boolywood 
+
+packageA				packageB 
+folderA 				folderB 
+
+class A
+	private add 
+	default sub 
+	protected mul 
+	public div 
+
+class B
+	main 
+		A obj = new A(); 
+
+
+
+how to prevent object creation ? 
+create private constructor 
+
+
+access specifier 
+non access modifier/specifier 
+
+--------------------------------------------------------------------
+package => folder -> package statement in the first line 
+import it in another package 
+
+packageA {A add sub mul div }
+packageB {B ->create A object -> and access method of a class }
+--------------------------------------------------------------------
+
+
+
+
+
+
+
+___private______ does not access out side the class  ? 
+
+__static__ property{ variable method } can access  without object ?
+
+_package_ keyword is used for folder in java? 
+
+__java.lang__ package we have by default imported in java ? 
+
+___extends___ keyword is used to achieve inheritance in java? 
+
+___super_____ keyword is used to access parent's property from child ? 
+
+__constructor__ is used to initialize instance variable? 
+
+___final__ is used in java to make variable constant. 
+
+----------------------------------------------------------------
+
+String  ? -> immutable 
+StringBuffer / StringBuilder -> mutable
+synchronized   non synchronized 
+bank 		   facebook 
+
+-----------------------------------------------------------------
+abstraction : to hide 
+
+abstract -> keyword 
+
+we can use abstract keyword in class / method
+
+when we dont want to provide defination of a mehtod we mark that method as 
+abstract 
+
+if method is an abstract in class then class must mark as abstract 
+
+
+abstract class Task1{
+	abstract void login();
+	abstract void signup();
+	abstract void forgetpassword(); 
+	abstract void loginWithOtp();
+	void logout(){
+		// 
+	}
+}
+
+
+class Emp123 extends Task1{
+	void login(){
+
+	}
+	void signup(){
+
+	}
+	void forgetpassword(){
+
+	}
+	void loginWithOtp(){
+
+	}
+}
+
+RBI -> 
+
+abstract class RBI{ 
+	abstract void wid();
+	abstract void dep();
+	abstract void checkBalance();
+}
+class SBI extends RBI {
+	void wid(){}
+	void dep(){}
+	void checkBalance(){}
+}
+
+abstract class Car{
+	abstract void horn();
+}
+
+
+
+class A{
+	public String process(){
+		// 		
+	}
+}
+
+main -> 
+
+you can not create instance/object of an abstract class 
+
+
+pure abstract class ->
+			all methods are abstract as well as public  -- only 
+
+interface --> pure abstrac class 
+	we can not create instance of interface { not possible to create }
+
+-----------------------------------------
+
+create TRAI class with call() abstract method 
+create DOT class with missCall() abstract method 
+
+DOT class is child of TRAI class 
+
+and JIO is child of DOT class 
+
+provide implementation of above without any complilation error.
+------------------------------------------------- 
+
+we want user registration for an event. 
+our app will ask firstname , email, password and gender and bornYear , to the user. 
+
+create getData() for reading 
+create printData() for printint 
+create calcAge() for calculating age of user from born year. 
+-------------------------------------------------
+now add menu in existing app 
+
+Press 1  get data 
+	  2  print data 
+	  3  exit 
+Enter your choice 
+
+
+getData() -> validation 
+firstName => blank ,single character 
+email => blank, 5+ in length , it must contains @ 
+password => 5+ in length
+bornYear => 1940+  
+
+
+create array of objects -> User -> with size 5 
+
+
+
+---------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
