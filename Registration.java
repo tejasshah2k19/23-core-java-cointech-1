@@ -5,7 +5,11 @@ public class Registration {
 
         Scanner scr = new Scanner(System.in);
         User user = new User();
-
+        User users[] = new User[5];// declaration array
+        // users[0]=null users[1] users[2] users[3] users[4]
+        int userIndex = 0;
+        boolean success = false;
+        String search;
         while (true) {
             System.out.println("\n\nPress 1 For Input\n2 For Display\n3 For Exit");
             System.out.println("Enter Your Choice");
@@ -13,13 +17,36 @@ public class Registration {
 
             switch (choice) {
                 case 1:
-                    user.getData();
+                    if (userIndex == 5) {
+                        System.out.println("All Registration completed...");
+                    } else {
+                        users[userIndex] = new User();// allocate memory {}
+                        users[userIndex].getData();
+                        userIndex++;// 1 2 3 4
+                    }
                     break;
                 case 2:
-                    user.printData();
+                    for (int i = 0; i < userIndex; i++) {
+                        users[i].printData();
+                    }
                     break;
                 case 3:
                     System.exit(0);// shutdown your app
+                case 4:
+                    System.out.println("Enter Name - Search ");
+                    search = scr.next();
+                    // A B C D
+                    // E
+                    success = false;
+                    for (int i = 0; i < userIndex; i++) {
+                        if (users[i].firstName.equals(search)) {
+                            users[i].printData();
+                            success = true;
+                        }
+                    }
+                    if (success == false) {
+                        System.out.println("No User Found!!!");
+                    }
 
                 default:
                     System.out.println("Invalid Choice");
