@@ -1134,10 +1134,28 @@ password => 5+ in length
 bornYear => 1940+  
 
 
-create array of objects -> User -> with size 5 
+create array of objects -> User -> with size 5
 
+4. For Search 
+4 
+	Enter name 
+	rock 
 
+	display all the information of rock if rock is present 
+	else no user found  
 
+5. 
+	sort the user age wise 
+	A:15 B:25 C:20 D:16
+	sort 
+	A:15 D:16 C:20 B:25   
+
+process: 
+	Add Parent class Human { Human class is a parent of User Class }
+		add country field in human class 
+		also add abstract method getData() and printData() 
+		also add abstract method printAge() 
+		
 ---------------------------------------------------------------
 
 
