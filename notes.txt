@@ -1158,6 +1158,188 @@ process:
 		
 ---------------------------------------------------------------
 
+q : find out the true statement ?
+
+A: X extends Y if and only if X is class and Y is interface 
+B: X extends Y if and only if X is an interface and Y is Class 
+C: X extends Y if and only if X and Y is either Class or interface 
+D: X extends Y if and only if X or Y can be any combination of Class
+or interface 
+
+Ans : C 
+class extends class 
+interface extends interface 
+class implments interface 
+
+
+
+Q: 
+
+1) class Electronic implments Device {
+	public void doIt(){}
+}
+
+3)abstract class Phone1 extends Electronic{
+
+}
+5)abstract class Phone2 extends Electronic{
+	public void doIt(int a){}
+}
+7)class Phone3 extends Electronic implements Device{ 
+	public void doStuff(){
+
+	}
+}
+9)interface Device {
+	public void doIt();
+}
+A : Compilation succeeds 
+B : error at line 1 , C : error at line 3, D -> 5 , E -> 7 , F-> 9 
+choose all that apply. 
+
+
+
+Question-> 
+
+class Frodo extends Hobbit{
+	public static void main(String args[]){
+		int gold = 7; //1
+		int ans = countGold(gold,6);//2
+		System.out.println(ans); //3
+	}
+}
+class Hobbit{
+	int countGold(int a,int b ){
+		return a+b; //4 
+	}
+}
+
+output -> 13 , more than 1 compilation error , 
+error at 1 , error at 2 , error at 3 , error at 4 
+
+can we access property of a class without object? 
+No , if it is static then yes 
+
+
+
+Question -> 
+
+class Top {
+	public Top(String s){
+		System.out.println("T");
+	}
+}
+class Bottom extends Top {
+	Bottom(String s){
+		System.out.println("B");
+	}
+	public static void main(String args[]){
+		Bottom bb = new Bottom("hi");
+	}
+}
+
+-> compilation error , T , T B , B , B T , or XXXX 
+
+
+
+Question -> 
+
+class Bird{
+	Bird(){
+		System.out.println("bird");
+	}
+}
+class Raptor extends Bird{
+	Raptor(){
+		System.out.println("raptor");
+	}
+}
+class Hawk extends Raptor{
+	Hawk(){
+		System.out.println("hawk");
+	}
+	public static void main(String args[]){
+		new Hawk();
+	}
+}
+
+--> bird raptor hawk 
+
+
+
+
+
+question :- 
+
+	class Singer{
+		static void sing(){
+			System.out.println("Singer sing");
+		}
+	}
+
+	class Tenor extends Singer{
+		static void sing(){
+			System.out.println("Tenor Sing");
+		}
+	
+		public static void main(String args[]){
+			sing();//Tenor.sing() Singer.sing() 
+			//Tenor.sing();
+			Singer.sing();
+		}
+	}
+
+--> Tenor Sing 
+
+----------------------------------------------------
+exception -> runtime error 
+
+
+error -> 1) compile time error {.java -> javac } 
+		 2) runtime error      {.class -> java }
+
+compileTimeError ->
+			 miss semicolon 
+			 use of the variable which is not declare 
+			 currely brackets missmatch 
+
+			java compiler will detect this all errors 
+
+runTimeError -> .class -> exception 
+			logical 
+			= instead of == 
+			null object 
+			array of size 5 and you ask 7th index 
+
+			ATM -> keyboard not working 
+			ATM -> empty is empty 
+					1) atm out of service 
+					2) wid amount we get nothing 
+
+
+exception handeling 
+
+1) try -> identify code/area where exception can be generated
+2) hit -> exception generated 
+3) throw -> throw the exception 
+4) catch -> cath it and handle it , print msg , re-execute 
+
+
+we have n number exception class 
+
+arithmetic -> AirthmeticException 
+input -> InputmismatchException 
+null -> NullPointerException 
+array index -> ArrayIndexOutofBoundsException 
+
+Exception is a class which parent of all exception class  
+
+
+
+
+
+
+
 
 
 
