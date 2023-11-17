@@ -24,6 +24,10 @@ class AiCalc {
             System.out.println("Please Do not Enter Zero");
         } catch (InputMismatchException e) {
             System.out.println("Please Enter Only Integers ( Whole Numbers)");
+        } catch (Exception e) {
+            System.out.println("Something went wrong please try after sometime....");
+            e.printStackTrace();
+            System.out.println(e.getMessage());// normal error msg
         }
 
     }

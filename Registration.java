@@ -11,7 +11,8 @@ public class Registration {
         boolean success = false;
         String search;
         while (true) {
-            System.out.println("\n\nPress 1 For Input\n2 For Display\n3 For Exit");
+            System.out
+                    .println("\n\nPress 1 For Input\n2 For Display\n3 For Exit\n4 For Search \n5 For Sort Data By Age");
             System.out.println("Enter Your Choice");
             int choice = scr.nextInt();
 
@@ -47,7 +48,10 @@ public class Registration {
                     if (success == false) {
                         System.out.println("No User Found!!!");
                     }
-
+                    break;
+                case 5:
+                    // sort
+                    break;
                 default:
                     System.out.println("Invalid Choice");
                     break;
