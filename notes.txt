@@ -1335,102 +1335,71 @@ array index -> ArrayIndexOutofBoundsException
 Exception is a class which parent of all exception class  
 
 
+finally -> gc ,, resource deallocation 
 
+database , file , io , thid party api , 
 
 
+open db , open api 
+X
+Y
+Z
+close db 
 
+catch -> 
 
+finally
+   close db 
 
 
 
 
 
+try
+catch
 
 
+try
+catch
+catch
 
+try
+catch
+finally
 
+try
+catch
+catch
+finally
 
+try
+finally
 
+--------------------------------------------------------------
 
 
+import java.lang.*; 
+String
+System
+Math 
+ArithmeticException
+--------------------------------------------------------------- 
 
+types/category of an exception
+	1) checked exception 
+	2) unchecked exception 
 
+checked exception -> an exception that forces you to handle compulsory 
+						you must have to write try.catch 
+						
+unchecked exception -> you may or may not handle exception , its upto you 
+			AirthmeticException
+			InputMismatchException 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ throws -> it is used to thorw the exception { skip try catch}
 
 -----------------------------------------------------------------
+
 
 
 

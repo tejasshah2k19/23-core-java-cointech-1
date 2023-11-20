@@ -51,6 +51,9 @@ public class Registration {
                     break;
                 case 5:
                     // sort
+                    // if(users[j].age > users[j+1].age ){
+
+                    // }
                     break;
                 default:
                     System.out.println("Invalid Choice");

@@ -20,6 +20,8 @@ public class ExceptionDemo2 {
             System.out.println("Something Went Wrong Please Try AfterSometime");
             // e.printStackTrace();
             // sendEmailToDeveloper(e.printStackTrace())
+        } finally {// executes always
+            System.out.println("finally block executed....");
         }
     }
 }
