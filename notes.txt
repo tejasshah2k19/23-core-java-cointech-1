@@ -1391,15 +1391,42 @@ types/category of an exception
 
 checked exception -> an exception that forces you to handle compulsory 
 						you must have to write try.catch 
+						if your exception class is child of Exception directly then it's checked exception class 
 						
 unchecked exception -> you may or may not handle exception , its upto you 
 			AirthmeticException
 			InputMismatchException 
+			if your exception class is child of RuntimeException then it's unchecked exception 
 
  throws -> it is used to thorw the exception { skip try catch}
 
 -----------------------------------------------------------------
+task :->
+		read 5 numbers from user and store into an array , 
+		now perform average and print it. 
+		{handle exception - your program must not be terminated / crash }
+		 10 20 30 40 50 
+		 10+20+30+40+50/5 => 30
 
+--------------------------------------------------------
+
+visa -> 
+bank -> 
+
+customer --> amazon -> 
+			credit card 
+			cvv 
+			otp
+			expiredDate  
+
+custom  exception -> own exception 
+
+
+
+myprog.com 
+	signup , login with google 
+	google -> email,password 
+				aa@yopmail.com - exception 
 
 
 

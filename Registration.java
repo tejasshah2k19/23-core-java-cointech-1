@@ -12,7 +12,8 @@ public class Registration {
         String search;
         while (true) {
             System.out
-                    .println("\n\nPress 1 For Input\n2 For Display\n3 For Exit\n4 For Search \n5 For Sort Data By Age");
+                    .println(
+                            "\n\nPress 1 For Input\n2 For Display\n3 For Exit\n4 For Search \n5 For Sort Data By Age-asc");
             System.out.println("Enter Your Choice");
             int choice = scr.nextInt();
 
