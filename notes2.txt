@@ -1,0 +1,454 @@
+int a;  //4 byte 
+
+int x[]; 
+
+int x[] = new int[5]; // 5 
+
+x[0] x[1] x[2] x[3] x[4] //5 elements 
+
+
+1) 5 items - allocated 5 and used 5 
+2) 3 items - allocated 5 and used 3 {+2}
+3) 7 items - allocated 5 and -2 
+
+
+User user = new User[10]; // 3 {7} -- 25 
+
+dynamic -> grow -> release 
+
+
+
+
+amazon mobile app -> 
+	led tv 55' 
+				mobile->data? No. 
+				
+
+collection framework -> 
+
+collection -> topic 
+
+Collection --> interface 
+
+
+
+						Collection {I} 
+	List{I}				Queue{I}					Set{I}			| 		Map{I}
+	 ArrayList			 PriorityQueue				  HashSet 					HashMap
+	 Vector 										  TreeSet 					TreeMap
+	 
+	 
+	Stack 
+	LinkedList			  ArrayDeque 				   LinkedHashSet 	
+		
+		
+		
+													     	
+	Collections{C} 
+	Comparator {I}
+	Comparable {I}
+	Arrays
+	
+
+
+ArrayList/Vector -> contains duplicate value 
+          		 -> Its unsorted 
+		  		 -> Its Ordered {10 50 20 } {10 50 20} 
+ 
+ArrayList -> similiar to array 80% ->
+					we can access elements using index 
+					we can store n number of elements 
+					array list grow when we add data again and again 
+					array list release memory when we remove element 
+					array list a dynamic array 
+
+
+*) Take 5 numbers from user and store into ArrayList 
+*) Print all 5 items from ArrayList 
+*) Print Sum of All items in ArrayList 
+
+
+	add()
+	get(index)  
+	remove(index)
+	remove(Object)
+	contains(Object) 
+	 
+	
+*) convert an array into array list 
+*) TelephoneDiaryApp using ArrayList 	
+
+
+Vector Vs ArrayList 
+
+all the methods that we have in ArrayList is contains by Vector 
+ArrayList.method == Vector.method 
+
+synchronized -> Vector 
+	line by line , one by one  	
+
+120 opr => vector -> it will do line by line 
+					1st op
+					2nd op 
+					
+		ArrayList => whole at once 
+					1st 2nd 3rd ..... all
+					
+
+StringwBuffer{S} and StringBuilder{X} 
+
+----------------------------------------------------------------
+
+
+ArrayList 
+Vector : Sync 
+	1) duplicate values 
+	2) we can access via index - ordered 
+	3) unsorted 
+
+
+
+Set{I} 
+	HashSet 
+	TreeSet 
+			--- Set -> 1) no duplication allow 
+					   2) unordered - no index access 
+			HashSet vs TreeSet - 
+		    HashSet is unordered unsorted 
+	        TreeSet is  Sorted - Asc - increasing order 
+		
+
+PQ: 
+	1) allow duplicate 
+	2) you can have sorted data based on priority : ASC
+	3) unordered - no index access 
+	 
+----------------------------------------------------------------------------
+card game -> 52 CARDS 
+				    unique 52 numbers [1 6 4 8 2 3 52 95....] 
+		A											B
+		26[5 12 63 15 20....]						26[4 11 63 9 17.....]
+
+
+	Battle 1: 	5,4 
+
+		A											B
+		A[12 63 15 20....]						    [11 63 9 17.....]
+
+		A is win the Battle 
+	
+		A											B's DECK
+		[12 63 15 20 4 5....] 				        [11 63 9 17.....]
+		
+	Battle 2: A->12,B->11 
+		A											B
+		 [63 15 20 4 5....] 				        [63 9 17.....]
+		
+		A win the Battle 2 
+		A											B
+		 [63 15 20 4 5 12 11]				        [63 9 17.....]
+		
+	Battle 3: A->63 B->63 
+		A											B
+		[15 20 4 5 12 11]				       	    [9 17.....]
+		Draw Battle 3 
+				
+	Battle 4: A->15 B->9
+		A											B
+		[20 4 5 12 11]				       	       [17.....]
+		A with the Battle 4 
+		A											B
+		[20 4 5 12 11 63 63 15 9]       	       [17.....]
+							
+
+	Battle 5: A->20 B->17 
+		A											B
+		[4 5 12 11 63 63 15 9]       	       		[]
+	
+	 	A with the Battle 4 
+		A											B
+		[4 5 12 11 63 63 15 9 20 17]   	       		[]
+	
+	
+	Game Over !! 
+	***A is the Winner***
+
+----------------------------------------------------------------------
+
+ArrayList - unSorted , duplicate , ordered{index}
+Vector   -    ||          ||         ||     { sync } 
+
+HashSet  -   unSorted , unique , unOrdered {no index} 
+TreeSet  -   Sorted , unique , unOrdered {no index} 
+
+PriorityQueue - unSorted-sorted  , duplicate , non index 
+
+Map  
+	HashMap -> hashing 
+	TreeMap -> sorted 
+	
+	
+	Map -> 
+		you don't have single value , you have key:value pair 
+			name:ram 
+			age:34
+			name:sita { overwrite old data } 		
+		keys are always unique
+		values can be duplicate 
+		
+REST-> 
+json->
+	{city=Ayodhya, name=Ram, spouse=Sita}
+
+
+all the methods that we have in HashMap same we have in TreeMap 
+TreeMap will sort keys in asc order - sorted 
+
+
+-------------------------------------------------
+ask 3 username and password to the user and store in to map 
+once you store in map , print all 3 username and password 
+-------------------------------------------------
+
+ArrayList - duplicate ? yes 
+Vector - duplicate ?  yes 
+
+HashSet - duplicate ? No 
+TreeSet - duplicate? No 
+
+ArrayList - sorted ? No 
+TreeSet  -  sorted ? Yes 
+
+ArrayList - index ? Yes 
+TreeMap   - index ? No 
+
+----------------------------------------------------------
+
+	X obj = new X();
+	S.o.p(obj); // className@hexadecimal -> toString()  
+
+	class X implements Comparable<X>{
+		String name; 
+		public String toString(){
+			return name;  
+		}
+		public int compareTo(X obj){
+			
+		}
+	}
+
+	hashcode() --> hexadecimal -> memory address 
+	
+	TreeSet<Integer> ts = new TreeSet<Integer>();
+	ts.add(11);
+	ts.add(4);
+	ts.add(10);
+	S.o.p(ts); // 4 10 11 
+	
+	TreeSet<X> ts = new TreeSet<>();
+	x1 x2 x3 -> object of X class 
+	
+	ts.add(x1);
+	ts.add(x2);
+	ts.add(x3);
+	
+	S.o.p(ts); //runtimeerror 
+	
+-------------------------------------------------------------------------------
+
+
+	How internally each collection works? 
+	
+	
+	Wrapper class. int , Integer 
+	hashcode() -> uniqueness 
+	
+	JDBC  
+	
+	
+		ArrayList<Integer> list = new ArrayList<>();	
+		list.add(10); 
+		list.add(100); 
+		list.add(101); 
+		list.add(102); 
+		list.add(103); 
+		list.add(104); 
+	
+		how? 
+		
+		default -> 10
+		//already added 5 elements 
+		
+		list.add(1000) //10th elements  				
+		100% -> size 
+		
+		list -> (10+1) + 5 -> 15 
+		java 7 
+			default size is 10 using constructor  
+			
+		java 8 	
+			default size is 10 using variable 
+				DEFAULT_CAPACITY=10		
+
+		want to change default size? 
+		using constructor 
+		
+		ArrayList<Integer> list = new ArrayList<Integer>();//10 
+		ArrayList<Integer> list = new ArrayList<Integer>(20);//20 
+		
+	
+
+-------------------------------------------------------------------------------------
+JDBC -> 
+
+	data -> save / store -> 
+	
+	app -> input data -> stop app -> data clear -> ram {volatile} -> persistance ? 
+			storage -> permanent -> 
+						1) file system -> input -> data -> store ->in file -> 
+						2) database -> 
+						
+						JDBC -> jdbc api 
+						
+						java --> database -> sql => {mysql,pg,oracle,ole,XXX}
+						
+						api-> class*
+						jdbc api -> database 
+						java api -> Math System String File Scanner
+						
+						jdbc api -> sql -> java.sql.*;  
+						
+			
+	telephone 
+				add contact 1000 -> 1000 user -> stop -> all clear 
+				database? 
+				sqllite -> create new contact -> database -> info 
+					1) add contact 
+				 	2) delete contact  
+				 	3) read contact  
+				 	4) update contact  
+				 	
+				database -> collection of information 
+				whatsapp -> open whatsapp -> n numbers of chats -> off internet -> you can access all chat
+				 	1) add chat 
+				 	2) delete chat 
+				 	3) read chat 
+				 	4) update chat 
+				 	
+				CRUD -> create , read , update , delete 
+				
+				
+				install -> 
+					mysql 
+					
+					
+	
+	contact app -> using database 
+	
+	create database -> 
+		create database contactapp; 
+	list all dbs->
+		show databases; 
+		
+	now use the contactapp database->
+		use contactapp; 
+		
+	store->contact info-> contactapp -> 
+		table-> row*col 
+		FirstName |  ContactNum |  City 
+		x			1212121			A
+		y			3434343			B
+		z			3434344			C
+	
+	create table -> store data-> contacts->
+		create table contacts(
+				firstName varchar(30),
+				contactNum varchar(30),
+				city varchar(30)
+				); 
+				
+				
+		list of all tables in database->
+		show tables; 
+		
+		read all data from contacts table-> 
+		select * from contacts;
+		select firstName from contacts;
+		select firstName,city from contacts;
+		
+		store/add record in table -> 
+		insert into contacts (firstName,contactNum,city) values ('rock','1234','baroda');		
+			
+		remove record from table ->
+			delete from contacts; //this will remove all contacts record-row 
+			
+			delete from contacts where firstName = 'jack'; 
+			
+							
+						
+						
+		save ->
+		commit; 
+		
+		
+		modify record -> 
+		update contacts set contactNum = '11111'; //all records are updated  with 11111 contactNum 
+		update contacts set contactNum = '11111' where firstName = 'rock' ; 	
+				
+				CRUD 	
+					
+----------------------------------------------------------
+
+					
+	
+						
+							    
+
+
+
+
+
+
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
