@@ -400,10 +400,45 @@ JDBC ->
 ----------------------------------------------------------
 
 					
+	sql query -> java 
+	command line tool -> sql -> execute query -> 
+	java app -> sql ->
 	
+	java app -> open connection -> db connection 
+								-> statement -> execute query 
+								{Statement,PreparedStatment,CallableStatement} 
 						
-							    
-
+	java-mysql -> mysql-connector.jar 
+	java-oracle ->   classes12.jar 
+	postgres -> pg.jar 
+	
+	java -- mysql -> driver -> 
+	
+		4 types driver 
+			type 1
+			type 2 
+			type 3
+			type 4
+			
+	1)driver -> driverName
+	2)database url , name 
+	3)db username and password 
+	
+	
+	im):- 
+		
+		1) download mysql-connector.jar 
+		https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-8.2.0.zip
+		copy mysql-connector.jar into lib folder ->lib folder you can create in your 
+		project
+		
+		now we need to link this jar file in our project
+		
+		right click on your project -> properties -> java build path ->
+		libraries -> add Jar -> browse your jar file -> then click on 
+		order and export tab -> select all -> apply and close 
+		
+		2) code 
 
 
 
