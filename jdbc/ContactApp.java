@@ -3,6 +3,7 @@ package jdbc;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.Scanner;
 
 public class ContactApp {
@@ -40,6 +41,37 @@ public class ContactApp {
 
 	}
 
+	void listAllContact() {
+		try {
+			// select * from contacts
+			pstmt = con.prepareStatement("select * from contacts");
+			ResultSet rs = pstmt.executeQuery();// rows*cols
+
+			System.out.println("FirstName   ContactNum    City");
+
+			while (rs.next()) {
+				String fn = rs.getString("firstName");
+				String cn = rs.getString("contactNum");
+				String city = rs.getString("city");
+				System.out.println(fn + "   " + cn + "   " + city);
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+	void deleteContact(String firstName) {
+		try {
+			pstmt = this.con.prepareStatement("delete from contacts where firstName = ?");
+			pstmt.setString(1, firstName);
+			int records = pstmt.executeUpdate();
+			System.out.println(records + " deleted..");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
 	public static void main(String[] args) {
 		Scanner scr = new Scanner(System.in);
 		ContactApp c = new ContactApp();
@@ -51,12 +83,21 @@ public class ContactApp {
 			int choice = scr.nextInt();
 
 			switch (choice) {
+			case 0:
+				System.exit(0);
 			case 1:
 				System.out.println("Please Enter FirstName ContactNum and City");
 				firstName = scr.next();
 				contactNum = scr.next();
 				city = scr.next();
 				c.addContact(firstName, contactNum, city);
+				break;
+			case 2:
+				c.listAllContact();
+			case 3:
+				System.out.println("Enter Name to delete");
+				firstName = scr.next();
+				c.deleteContact(firstName);
 				break;
 			}
 		}
